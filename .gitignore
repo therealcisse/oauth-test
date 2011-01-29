@@ -1,0 +1,43 @@
+# Build directory
+target/
+
+# Mac stuff
+.DS_Store
+
+# Eclipse stuff
+.scala_dependencies
+.project
+.classpath
+.settings
+.launch
+.manager
+
+# IntelliJ stuff
+.idea
+*.iml
+*.ipr
+*.iws
+*.bak
+*.backup
+*.mwb
+
+# Pax Runner stuff
+runner
+
+
+# sbt lib management
+lib_managed/
+src_managed/
+lib/
+
+# sbt build config
+boot/
+project/boot/
+project/build/target/
+project/plugins/target/
+project/plugins/lib_managed/
+project/plugins/src_managed/
+
+.history
+bin
+
